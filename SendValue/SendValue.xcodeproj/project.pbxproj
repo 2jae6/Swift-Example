@@ -15,6 +15,7 @@
 		004E2D5F23C6E7C100A9C5B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 004E2D5D23C6E7C100A9C5B3 /* LaunchScreen.storyboard */; };
 		004E2D6A23C6E7C100A9C5B3 /* SendValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E2D6923C6E7C100A9C5B3 /* SendValueTests.swift */; };
 		004E2D7523C6E7C100A9C5B3 /* SendValueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E2D7423C6E7C100A9C5B3 /* SendValueUITests.swift */; };
+		004E2D8323C6FA7E00A9C5B3 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E2D8223C6FA7E00A9C5B3 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		004E2D7023C6E7C100A9C5B3 /* SendValueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendValueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		004E2D7423C6E7C100A9C5B3 /* SendValueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendValueUITests.swift; sourceTree = "<group>"; };
 		004E2D7623C6E7C100A9C5B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		004E2D8223C6FA7E00A9C5B3 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				004E2D5B23C6E7C100A9C5B3 /* Assets.xcassets */,
 				004E2D5D23C6E7C100A9C5B3 /* LaunchScreen.storyboard */,
 				004E2D6023C6E7C100A9C5B3 /* Info.plist */,
+				004E2D8223C6FA7E00A9C5B3 /* SecondVC.swift */,
 			);
 			path = SendValue;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				004E2D5723C6E7C000A9C5B3 /* ViewController.swift in Sources */,
 				004E2D5323C6E7C000A9C5B3 /* AppDelegate.swift in Sources */,
+				004E2D8323C6FA7E00A9C5B3 /* SecondVC.swift in Sources */,
 				004E2D5523C6E7C000A9C5B3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
