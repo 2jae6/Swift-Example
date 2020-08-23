@@ -7,6 +7,43 @@
 //
 
 import Foundation
+/*
+struct Point{
+    var x: Int
+    var y: Int
+    
+    
+    func oppsitePoint() -> Point{
+        return Point(x: -x, y: -y)
+    }
+    
+    mutating func setOppositePoint(_ opposite: Point){
+        x = -opposite.x
+        y = -opposite.y
+    }
+}
 
-print("Hello, World!")
+var position: Point = Point(x: 10, y: 20)
 
+print(position)
+print(position.oppsitePoint())
+position.setOppositePoint(Point(x: 15, y: 10))
+print(position)
+
+*/
+
+
+struct Point {
+    var x: Int
+    var y: Int
+    
+    var oppositionPoint: Point{
+        get{
+            return Point(x: 10, y: 20)
+        }
+        set(something){
+            x = -something.x
+            y = -something.y
+        }
+    }
+}
