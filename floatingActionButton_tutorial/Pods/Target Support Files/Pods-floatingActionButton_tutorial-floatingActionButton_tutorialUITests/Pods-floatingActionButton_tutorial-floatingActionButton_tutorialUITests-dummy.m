@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_floatingActionButton_tutorial_floatingActionButton_tutorialUITests : NSObject
+@end
+@implementation PodsDummy_Pods_floatingActionButton_tutorial_floatingActionButton_tutorialUITests
+@end
